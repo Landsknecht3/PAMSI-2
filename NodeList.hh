@@ -11,9 +11,9 @@ class NodeList{
         {
         private:
             Node* v;
-            Iterator(Node* u);
-        public:
             
+        public:
+            Iterator(Node* u);
             Elem& operator*();
             bool operator==(const Iterator& p)const;
             bool operator!=(const Iterator& p)const;

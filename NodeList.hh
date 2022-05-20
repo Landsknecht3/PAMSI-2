@@ -1,3 +1,4 @@
+#include <iostream>
 template <typename Elem>
 class NodeList{
     private:
@@ -102,7 +103,7 @@ NodeList<Elem>::~NodeList()
     while(!empty())
         {eraseFront();}
     delete header;
-    delete trailer;
+    delete trailer;  
 }
 
 template <typename Elem>
